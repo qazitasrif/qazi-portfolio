@@ -2,7 +2,10 @@ body {
     font-family: 'Gantari', sans-serif;
     margin: 0;
     padding: 0;
-    
+
+}
+section{
+    min-height: 100vh;
 }
 
 h1 {
@@ -21,26 +24,30 @@ h1 {
     width: 50%;
     padding: 5%;
 }
-.top-side img{
+
+.top-side img {
     width: 70%;
 }
-.hire-button{
+
+.hire-button {
     text-decoration: none;
-    background-image: linear-gradient(#4b024b,rgb(36, 34, 34));
+    background-image: linear-gradient(#4b024b, rgb(36, 34, 34));
     color: white;
     font-weight: 700px;
     padding: 10px 40px;
     border-radius: 5px;
 }
-.profile{
-    background-image: linear-gradient(#4b024b,rgb(36, 34, 34));
+
+.profile {
+    background-image: linear-gradient(#4b024b, rgb(36, 34, 34));
     color: white;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
     margin-top: 0;
 }
-.box{
+
+.box {
     box-shadow: 10px 10px 40px grey;
     width: 40%;
     margin-left: 5%;
@@ -48,12 +55,19 @@ h1 {
     margin-bottom: 5%;
     padding: 20px;
     border-radius: 10px;
+    border-top: 5px blue;
+    border-left: 7px solid blue;
 }
-.exp{
+
+.exp {
     background-image: url(image/Untitled\ design.png);
     background-repeat: no-repeat;
 }
-footer{
-    text-align: center;
+
+footer {
+    text-align: right;
     font-weight: 500;
+}
+#full-stac{
+    border-left: 7px solid orangered;
 }
