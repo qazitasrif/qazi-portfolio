@@ -1,6 +1,7 @@
 body {
     font-family: 'Gantari', sans-serif;
     margin: 0;
+    padding: 0;
     
 }
 
@@ -37,4 +38,22 @@ h1 {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-top: 0;
+}
+.box{
+    box-shadow: 10px 10px 40px grey;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    padding: 20px;
+    border-radius: 10px;
+}
+.exp{
+    background-image: url(image/Untitled\ design.png);
+    background-repeat: no-repeat;
+}
+footer{
+    text-align: center;
+    font-weight: 500;
 }
